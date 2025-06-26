@@ -24,8 +24,8 @@ techport_index = FAISS.load_local("vectorstores/techport_index", embeddings, all
 techtransfer_index = FAISS.load_local("vectorstores/techtransfer_index", embeddings, allow_dangerous_deserialization=True)
 
 # ✅ Initialize Streamlit App
-st.set_page_config(page_title="🚀 NASA Innovation Companion", layout="wide")
-st.title("🌌 NASA Innovation Companion")
+st.set_page_config(page_title="🔭 SpaceLab AI", layout="wide")
+st.title("🛰️ Welcome to SpaceLab AI")
 
 st.markdown("""
 Ask any innovation or technology-related query based on NASA's research and patents.
